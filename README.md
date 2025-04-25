@@ -1,5 +1,16 @@
-# docker-learning
-<h1>Learning Docker</h1>
+# Docker-Learning
+# 🐳 Day 1: Getting Started with Docker
+
+## ✅ What I Did Today
+- Installed Docker on my local machine.
+- Ran my **first Docker container** using `hello-world`.
+- Learned basic Docker commands.
+- Understood the difference between **images** and **containers**.
+- Created this GitHub repo to document my Docker learning journey.
+
+---
+
+## 🔧 Commands I Used
 
 ```shell
 #Check Docker version
@@ -52,4 +63,67 @@ docker rmi hello-world
 #Removes all unused containers, networks, and dangling images.
 docker system prune
 ```
+
+# 🐳 Day 2: My First Dockerfile (Python App)
+
+## ✅ What I Did Today
+- Created a simple Python script.
+- Wrote my first custom `Dockerfile`.
+- Built a Docker image and ran it locally.
+- (Optional) Pushed the image to DockerHub.
+- Learned about how Dockerfiles define the build steps.
+
+---
+
+## 🧠 Docker Concepts I Practiced
+
+| Dockerfile Instruction | What It Does |
+|------------------------|--------------|
+| `FROM` | Defines the base image (Python 3.11) |
+| `WORKDIR` | Sets the working directory inside the container |
+| `COPY` | Copies files from my machine into the container |
+| `CMD` | Defines the command that runs by default in the container |
+
+---
+## 📝 Python Script (`app.py`)
+
+```python
+print("Hello from my first Docker container!")
+```
+
+```Dockerfile
+#Docker file used
+FROM python:3.11-slim
+WORKDIR /app
+COPY app.py .
+CMD ["python", "app.py"]
+```
+
+```shell
+#Build the docker image
+docker build -t hello-python .
+```
+
+```shell
+#Run the Container
+docker run hello-python
+#Output -
+Hello from my first Docker container!
+```
+
+
+```shell
+#Docker login to hub and tag the image and push the image to hub
+docker login
+docker tag hello-python prasannamarru/hello-python
+docker push prasannamarru/hello-python
+```
+
+```shell
+#Run it from anywhere
+docker run prasannamarru/hello-python
+```
+
+
+
 

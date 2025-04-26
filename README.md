@@ -125,5 +125,54 @@ docker run prasannamarru/hello-python
 ```
 
 
+# 🐳 Day 3: Running PostgreSQL + Adminer with Docker Compose
 
+## ✅ What I Did Today
+- Learned about **Docker Compose** to run multiple services together.
+- Set up **PostgreSQL** (database) + **Adminer** (web UI) using a single `docker-compose.yml` file.
+- Connected to PostgreSQL using the Adminer web interface.
+- Practiced creating tables, inserting data, and running simple SQL queries.
+
+---
+
+## 📚 What is Docker Compose?
+- Docker Compose allows you to **define and run multi-container applications** easily.
+- You describe services, networks, and volumes in a simple `docker-compose.yml` file.
+- One command (`docker-compose up`) can start everything together!
+
+---
+
+
+## ⚙️ docker-compose.yml Used
+
+```yaml
+version: '3.8'
+
+services:
+  db:
+    image: postgres:14
+    container_name: postgres-db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+
+  adminer:
+    image: adminer
+    container_name: adminer-ui
+    restart: always
+    ports:
+      - "8080:8080"
+
+```
+
+▶️ How to Run
+```shell
+docker-compose up -d
+```
+
+# Tested the container locally-
 

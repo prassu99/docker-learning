@@ -123,7 +123,7 @@ docker push prasannamarru/hello-python
 #Run it from anywhere
 docker run prasannamarru/hello-python
 ```
-
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/b816710b-2272-491c-b92b-79585ed05530" />
 
 # 🐳 Day 3: Running PostgreSQL + Adminer with Docker Compose
 

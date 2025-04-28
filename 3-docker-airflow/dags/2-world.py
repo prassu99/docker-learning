@@ -11,6 +11,7 @@ with DAG(
     default_args=default_args,
     schedule_interval='@daily',  # run daily
     catchup=False,
+    tags=['custom','basic'],
 ) as dag:
     task6 = BashOperator(
         task_id='print_hello',

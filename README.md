@@ -173,6 +173,8 @@ services:
 ```shell
 docker-compose up -d
 ```
+#Tested in local-
+<br>
+<img width="876" alt="image" src="https://github.com/user-attachments/assets/326a0b01-f459-4826-906c-3201eaeba395" />
 
-# Tested the container locally-
 

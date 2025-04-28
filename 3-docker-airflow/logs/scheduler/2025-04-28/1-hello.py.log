@@ -16,3 +16,94 @@
 [2025-04-28T02:16:32.747+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:16:32.746+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-04-28T02:16:32.756+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:16:32.756+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-27 00:00:00+00:00, run_after=2025-04-28 00:00:00+00:00
 [2025-04-28T02:16:32.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.041 seconds
+[2025-04-28T02:17:03.431+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:03.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:17:03.432+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:03.432+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:03.438+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:03.448+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:03.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:17:03.459+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:03.458+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-27 00:00:00+00:00, run_after=2025-04-28 00:00:00+00:00
+[2025-04-28T02:17:03.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.040 seconds
+[2025-04-28T02:17:34.234+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:34.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:17:34.237+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:34.236+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:34.244+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:17:34.256+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:34.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:17:34.267+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:17:34.267+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-27 00:00:00+00:00, run_after=2025-04-28 00:00:00+00:00
+[2025-04-28T02:17:34.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.049 seconds
+[2025-04-28T02:18:05.039+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:05.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:18:05.042+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:05.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:05.049+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:05.062+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:05.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:18:05.074+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:05.074+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:18:05.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.050 seconds
+[2025-04-28T02:18:35.598+0000] {processor.py:161} INFO - Started process (PID=929) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:35.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:18:35.601+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:35.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:35.609+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:18:35.620+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:35.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:18:35.631+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:18:35.631+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:18:35.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.133 seconds
+[2025-04-28T02:19:06.343+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:06.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:19:06.346+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:06.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:06.354+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:06.367+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:06.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:19:06.377+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:06.377+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:19:06.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.049 seconds
+[2025-04-28T02:19:36.641+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:36.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:19:36.643+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:36.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:36.650+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:19:36.662+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:36.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:19:36.672+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:19:36.672+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:19:36.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.044 seconds
+[2025-04-28T02:20:06.758+0000] {processor.py:161} INFO - Started process (PID=1106) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:06.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:20:06.761+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:06.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:06.767+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:06.780+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:06.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:20:06.790+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:06.790+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:20:06.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.044 seconds
+[2025-04-28T02:20:37.301+0000] {processor.py:161} INFO - Started process (PID=1165) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:37.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:20:37.303+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:37.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:37.309+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:20:37.322+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:37.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:20:37.334+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:20:37.334+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:20:37.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.048 seconds
+[2025-04-28T02:21:07.981+0000] {processor.py:161} INFO - Started process (PID=1224) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:07.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:21:07.983+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:07.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:07.989+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:08.000+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:08.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:21:08.011+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:08.011+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:21:08.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.043 seconds
+[2025-04-28T02:21:38.580+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:38.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:21:38.583+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:38.582+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:38.591+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:21:38.605+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:38.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:21:38.615+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:21:38.615+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:21:38.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.049 seconds
+[2025-04-28T02:22:09.129+0000] {processor.py:161} INFO - Started process (PID=1342) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:09.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:22:09.132+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:09.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:09.139+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:09.152+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:09.152+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:22:09.162+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:09.162+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:22:09.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.045 seconds
+[2025-04-28T02:22:39.690+0000] {processor.py:161} INFO - Started process (PID=1401) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:39.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:22:39.693+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:39.692+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:39.699+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:22:39.712+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:39.712+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:22:39.722+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:22:39.722+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:22:39.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.043 seconds
+[2025-04-28T02:23:10.284+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /opt/airflow/dags/1-hello.py
+[2025-04-28T02:23:10.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/1-hello.py for tasks to queue
+[2025-04-28T02:23:10.288+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:23:10.287+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:23:10.294+0000] {processor.py:840} INFO - DAG(s) 'hello_data_engineer' retrieved from /opt/airflow/dags/1-hello.py
+[2025-04-28T02:23:10.309+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:23:10.308+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-28T02:23:10.319+0000] {logging_mixin.py:188} INFO - [2025-04-28T02:23:10.319+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_data_engineer to 2025-04-28 00:00:00+00:00, run_after=2025-04-29 00:00:00+00:00
+[2025-04-28T02:23:10.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/1-hello.py took 0.048 seconds
